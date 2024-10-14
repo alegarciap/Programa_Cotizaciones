@@ -1,10 +1,10 @@
 import streamlit as st
 
-precioPost = 102
+precioPost = 10
 precioReel = 12
 precioStory = 8
 
-st.title("Generado de Cotizaciones")
+st.title("Generador de Cotizaciones")
 
 posts = st.number_input("Ingrese cantidad de publicaciones estáticas al mes: ", min_value=0, step=1)
 reels = st.number_input("Ingrese la cantidad de reels al mes: ", min_value=0, step=1)
